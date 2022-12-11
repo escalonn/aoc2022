@@ -20,6 +20,16 @@
             "args": [
                 "${fileDirname}/input2.txt"
             ]
+        },
+        {
+            "name": "input3.txt",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true,
+            "args": [
+                "${fileDirname}/input3.txt"
+            ]
         }
     ]
 }
