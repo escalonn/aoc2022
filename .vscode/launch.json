@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "input.txt",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true,
+            "args": [
+                "${fileDirname}/input.txt"
+            ]
+        },
+        {
+            "name": "input2.txt",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true,
+            "args": [
+                "${fileDirname}/input2.txt"
+            ]
+        }
+    ]
+}
