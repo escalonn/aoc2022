@@ -13,7 +13,6 @@ for line in fileinput.input():
     b_text = r[24:]
     bx, by = [int(a) for a in b_text.split(', y=')]
     d = abs(sx - bx) + abs(sy - by)
-    print(sx, sy)
     for y in range(max(sy - d, 0), min(sy + d + 1, edge + 1)):
         span = d - abs(sy - y)
         rows[y].addi(sx - span, sx + span + 1)
